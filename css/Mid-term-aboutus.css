@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@100&family=Space+Mono&display=swap');
+
+html{font-family:'Inter';
+}
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+
+body{
+ background-color:#F6F3EC96;
+ width: 1440px;
+ height: 1536px;
+   
+}
+
+
+h1{
+    color: #695536;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 92px;
+    margin-top: 104px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 92px;
+    margin-top:128px;
+    margin-left:420px ;
+   
+   
+}
+
+
+
+
+li{
+    color:#695536;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+  
+ul a:hover {
+    font-size: 18px;
+    transition: 0.5s;}
+
+.slider_container{
+        width: 1168px;
+        height: 438px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-left:81px;
+        margin-top:61px;
+        border-color: #F6F3EC96;
+        
+    }
+.slider_container div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+.slider_container div {
+    -webkit-animation: round 15s linear infinite;
+                animation: round 15s linear infinite;
+    }
+    @-webkit-keyframes round {
+        6.6% {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            
+        }
+        26.4% {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            
+        }
+        30% {
+            opacity: 0;
+            filter: alpha(opacity=0);
+            
+        }
+    }
+    @keyframes round {
+        6.6% {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            
+        }
+        26.4% {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            
+        }
+        30% {
+            opacity: 0;
+            filter: alpha(opacity=0);
+            
+        }
+    }
+.slider_container div:nth-child(3) {
+        -webkit-animation-delay: 0s;
+                animation-delay: 0s;
+    }
+    
+.slider_container div:nth-child(2) {
+        -webkit-animation-delay: 5s;
+                animation-delay: 5s;
+    }
+    
+.slider_container div:nth-child(1) {
+        -webkit-animation-delay: 10s;
+                animation-delay: 10s;
+    }
+    
+h2{
+    width: 1180px;
+    height: 62px;
+    flex-shrink: 0;
+    color: #695536;
+    margin-left:130px;
+    margin-top:153px;
+    color: #695536;
+    ;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;}
+
+p{
+    display: flex;
+    width: 1205px;
+    height: 390px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #695536;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 1.6px;
+margin-left:117px;
+
+}
+
+.footer{
+    width: 1440px;
+    height: 132px;
+    flex-shrink: 0;
+    background-color:#E5E2DE;
+    flex-direction: row;
+    
+    
+}
+
+.footer a:hover{
+    font-size: 30px;
+    transition: 1s;
+}
+
+.fb{
+    width: 54px;
+height: 54px;
+flex-shrink: 0;
+
+
+
+}
+.ig{
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-left:18px;
+
+
+}
+.line{
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-left:16px;
+
+
+
+}
+
+.line1{
+    width: 1232px;
+    height: 1px;
+    background: #695536;
+    margin-left:104px ;
+    margin-top:55px;
+}
+
+.footertext{
+    width: 1228px;
+    display: flex;
+    flex-direction: row;
+    margin-left:137px;
+    margin-top:52px;
+    justify-content: space-between;
+    
+    
+}
+
+.scroll-container{
+    color: #695536;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.6px;
+    margin-top: 52px;
+    display: flex;
+    margin-left:37px;
+    
+    
+}
+
+.social-group{
+    width: 218px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-top:37px;
+    margin-right:62px;
+  
+}
+
+
+
+
+
+

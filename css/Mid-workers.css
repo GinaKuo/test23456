@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@100&family=Space+Mono&display=swap');
+html{font-family:'Inter';
+}
+*{
+  
+  margin:0 auto;
+  box-sizing: border-box;
+}
+
+
+body{
+ background-color:#F6F3EC96;
+ width: 1440px;
+ height: 1536px;
+   
+}
+
+
+h1{
+    color: #695536;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 92px;
+    margin-top: 104px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 92px;
+    margin-top:128px;
+    margin-left:420px ;
+   
+}
+
+
+
+
+li{
+    color:#695536;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+  
+ul a:hover {
+    font-size: 18px;
+    transition: 0.5s;}
+
+.line2{
+width: 1232px;
+height: 1px;
+background: #695536;
+margin-left: 104px auto;
+ margin-top:55px;
+ }
+
+
+ .sky{
+    width: 341px;
+    height: 341px;
+    flex-shrink: 0;
+    margin-left:6px;
+    
+ }
+
+ .gina{
+    
+    width: 341px;
+    height: 341px;
+    flex-shrink: 0;
+    margin-left:6px;
+    margin-top:260px;
+ }
+
+.text1{
+    width: 788px;
+    height: 299px;
+    flex-shrink: 0;
+    flex-direction: column;
+    
+}
+
+.text2{
+    width: 811px;
+    height: 219px;
+    flex-shrink: 0;
+    flex-direction: column;
+    margin-top:300px;
+}
+
+.introduction1{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 95px;
+    margin-top: 99px;
+}
+    
+
+
+.introduction2{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 95px;
+}
+
+.gina_school{
+    width: 807px;
+    height: 87px;
+    flex-shrink: 0;
+    color: #695536;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom:21px;
+    margin-left:10px;
+}
+.gina_introduction{
+    width: 760px;
+    height: 128px;
+    flex-shrink: 0;
+    color: #695536;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left:10px;
+}
+
+.sky_school{
+    width: 825px;
+    height: 87px;
+    flex-shrink: 0;
+    color: #695536;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top:42px;
+    
+}
+
+.sky_introduction{
+    width: 760px;
+    height: 175px;
+    flex-shrink: 0;
+    color: #695536;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left:1px;
+    
+}
+
+.footer{
+    width: 1440px;
+    height: 132px;
+    flex-shrink: 0;
+    background-color:#E5E2DE;
+    flex-direction: row;
+    margin-top:161px;
+    
+    
+}
+
+.footer a:hover{
+    font-size: 30px;
+    transition: 1s;
+}
+
+.fb{
+    width: 54px;
+height: 54px;
+flex-shrink: 0;
+
+
+
+}
+.ig{
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-left:18px;
+
+
+}
+.line{
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-left:18px;
+
+
+
+}
+
+.line1{
+    width: 1232px;
+    height: 1px;
+    background: #695536;
+    margin-left: 104px;
+    margin-top:55px;
+}
+
+.footertext{
+    width: 1228px;
+    display: flex;
+    flex-direction: row;
+    margin-left:137px;
+    margin-top:52px;
+    justify-content: space-between;
+    
+    
+}
+
+.scroll-container{
+    color: #695536;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.6px;
+    margin-top: 52px;
+    margin-left:37px;
+    display: flex;
+    
+    
+}
+
+.social-group{
+    width: 218px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-top:36px;
+    margin-right:62px;
+  
+}
